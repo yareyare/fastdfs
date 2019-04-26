@@ -6,7 +6,7 @@ ADD conf/http.conf /etc/fdfs/
 ADD conf/mime.types /etc/fdfs/
 ADD conf/storage.conf /etc/fdfs/
 ADD conf/tracker.conf /etc/fdfs/
-COPY fastdfs.sh ./
+COPY ./fastdfs.sh /home/
 ADD conf/nginx.conf /etc/fdfs/
 ADD conf/mod_fastdfs.conf /etc/fdfs/
 
