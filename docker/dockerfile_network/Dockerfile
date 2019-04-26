@@ -1,7 +1,7 @@
 # centos 7
 FROM centos
 # 添加配置文件
-ADD conf/fastdfs.sh /etc/fdfs/
+ADD conf/fastdfs /etc/fdfs/
 ADD conf/client.conf /etc/fdfs/
 ADD conf/http.conf /etc/fdfs/
 ADD conf/mime.types /etc/fdfs/
